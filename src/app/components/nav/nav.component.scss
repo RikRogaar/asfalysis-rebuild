@@ -1,0 +1,11 @@
+.selected::after {
+    @apply content-[''] absolute left-[10%] bottom-0 w-[80%] h-[2px] bg-brand-red;
+}
+
+a {
+    @apply relative;
+}
+
+.nav-item {
+    @apply absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-gray-300 transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 dark:bg-gray-700;
+}
